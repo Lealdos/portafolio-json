@@ -1,0 +1,33 @@
+---
+import Section from "../Section.astro";
+
+import { languages } from "@cv";
+---
+
+<Section title="Language">
+  <ul>
+    {
+      languages.map(({ language, fluency }) => (
+        <li>{`${language}-${fluency}`}</li>
+      ))
+    }
+  </ul>
+</Section>
+<style>
+   ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+
+  li {
+    color: #222;
+  }
+
+
+  @media (prefers-color-scheme: dark) { 
+    li {
+      color: #ebe0e0;
+    }
+  }
+</style>
