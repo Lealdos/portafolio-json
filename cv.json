@@ -33,26 +33,26 @@
             "name": "Surge Staffing",
             "position": "Onsite supervisor",
             "url": "https://surgestaffing.com/",
-            "startDate": "2022-05-01",
+            "startDate": "05-05-2023",
             "endDate": null,
-            "summary": "Streamer de programación más visto en Español en Twitch. +1 millón de seguidores entre todas mis redes sociales. Reconocido por Google, Microsoft y GitHub por mi impacto en la comunidad de desarrolladores.",
-            "highlights": ["Started the company"]
+            "summary": "overseeing and managing on-site operations, ensuring compliance with safety regulations, supervising staff, and addressing any issues that may arise during the course of work.",
+            "highlights": [""]
         },
         {
-            "name": "Adevinta",
-            "position": "Lead Frontend Architect",
+            "name": "FreeLancer",
+            "position": "Software engineer",
             "url": "https://twitch.tv/midudev",
-            "startDate": "2016-06-01",
-            "endDate": "2022-09-01",
-            "summary": "Lideré una convergencia técnica entre diferentes productos y migramos una arquitectura monolítica a otra más flexible y optimizada. Fomenté buenas prácticas y mejoras en la cultura de rendimiento, además de la entrega rápida de valor a los usuarios.",
+            "startDate": "2020-06-01",
+            "endDate": "2023-05-01",
+            "summary": "crafting custom code, building websites or applications tailored to client needs, troubleshooting technical issues, and effectively communicating to understand and meet project requirements.",
             "highlights": ["Started the company"]
         },
         {
-            "name": "Hubii",
-            "position": "Senior FrontEnd Developer",
-            "startDate": "2011-03-01",
-            "endDate": "2016-05-01",
-            "summary": "Desarrollé una plataforma de noticias geolocalizadas y una API para consumir la información. Escalé los servicios para soportar la carga de más de cientos de miles de peticiones al día. Recorté los tiempos de entrega y despliegues a producción a la mitad. Colaboré con Mozilla y Telefónica para desarrollar la primera app para televisores con FirefoxOS.",
+            "name": "Momentum labs",
+            "position": "Full Stack Developer",
+            "startDate": "2017-01-02",
+            "endDate": "2018-06-01",
+            "summary": "My responsibility was to analyze, design, develop, deploy, and test software solutions made with the following stacks: NestJs, javascript, HTML, CSS, fast API, python, Django, and Flask.",
             "highlights": ["Started the company"]
         }
     ],
@@ -73,10 +73,20 @@
             "url": "https://www.ucab.edu.ve/guayana/",
             "area": "Software engineer",
             "studyType": "Bachelor",
-            "startDate": "2013-01-01",
+            "startDate": "01-01-2013",
             "endDate": "2017-01-01",
             "score": "4.0",
-            "courses": ["DB1101 - Basic SQL"]
+            "courses": null
+        },
+        {
+            "institution": "FreeCodeCamp",
+            "url": "https://www.ucab.edu.ve/guayana/",
+            "area": "Software engineer",
+            "studyType": "Bachelor",
+            "startDate": "01-01-2020",
+            "endDate": null,
+            "score": "4.0",
+            "courses": ["React", "JavaScript", "Responsive"]
         }
     ],
     "awards": [
@@ -220,16 +230,24 @@
     "projects": [
         {
             "name": "Resdy",
-            "isActive": true,
-            "description": "Historia interactiva con retos de programación para viajar a Marte",
-            "highlights": ["Elige tu propia aventura", "En desarrollo"],
+            "isActive": false,
+            "description": "A powerful RESTful API built with Prisma ORM, Node.js, TSOA, and TypeScript. This API serves as a robust backend for our application, providing seamless data management and powerful endpoint interactions. With TypeScript's typing and TSOA's automatic routing, this project ensures a scalable and maintainable codebase.",
+            "highlights": [
+                "ORM",
+                "Prisma",
+                "Express",
+                "Docker",
+                "TypeScript",
+                "Tsoa",
+                "API REST"
+            ],
             "url": "https://mars.codes",
             "github": "https://github.com/Lealdos/restify-v2-backend"
         },
         {
             "name": "ToDo App With login",
             "isActive": true,
-            "description": "Historia interactiva con retos de programación para viajar a Marte",
+            "description": "This is a Todo List application built using React. It allows users to manage their tasks efficiently by adding, editing, and deleting items from their to-do list. Also the users can check their tasks list from any divice when they login using the auth feature and connect to the backed. ",
             "highlights": [
                 "Login system",
                 "React",
@@ -240,6 +258,14 @@
             ],
             "url": "https://lealdos.github.io/TodoAppJS/",
             "github": "https://github.com/Lealdos/TodoAppJS"
+        },
+        {
+            "name": "Diario el Tepuy",
+            "isActive": true,
+            "description": "A WordPress-based sports news page is a website designed to deliver updates and information on various sports. It utilizes WordPress as a content management system, enabling easy creation and organization of articles, news, and multimedia content. ",
+            "highlights": ["Wordpress", "Hosting", "Deploy", "CEO"],
+            "url": "https://diariotepuy.com/",
+            "github": null
         }
     ]
 }
