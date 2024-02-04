@@ -48,9 +48,9 @@ Based on the design by <a href="https://github.com/midudev/minimalist-portfolio-
 
 </div>
 
-<img src="portada.png"></img>
 <img src="blankResumenjson.png"></img>
 <img src="resumenJson.png"></img>
+<img src="portada.png"></img>
 
 ## 🛠️ Stack
 
@@ -70,7 +70,7 @@ corepack enable
 corepack prepare pnpm@latest --activate
 
 # Initialize the project
-pnpm create astro@latest -- --template midudev/minimalist-portfolio-json
+pnpm create astro@latest -- --template Lealdos/portafolio-json/
 
 
 ```bash
