@@ -22,3 +22,11 @@ pnpm-debug.log*
 
 # local folders
 .history
+
+# Created by https://www.toptal.com/developers/gitignore/api/vercel
+# Edit at https://www.toptal.com/developers/gitignore?templates=vercel
+
+### Vercel ###
+.vercel
+
+# End of https://www.toptal.com/developers/gitignore/api/vercel
