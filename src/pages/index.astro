@@ -1,45 +1,74 @@
 ---
-import Layout from "@/layouts/Layout.astro"
+import Layout from '@/layouts/Layout.astro';
 
-import About from "@/components/sections/About.astro"
-import Education from "@/components/sections/Education.astro"
-import Experience from "@/components/sections/Experience.astro"
-import Hero from "@/components/sections/Hero.astro"
-import Projects from "@/components/sections/Projects.astro"
-import Skills from "@/components/sections/Skills.astro"
-import KeyboardManager from "@/components/KeyboardManager.astro"
-import Language from "@/components/sections/Languages.astro"
+import About from '@/components/sections/About.astro';
+import Education from '@/components/sections/Education.astro';
+import Experience from '@/components/sections/Experience.astro';
+import Hero from '@/components/sections/Hero.astro';
+import Projects from '@/components/sections/Projects.astro';
+import Skills from '@/components/sections/Skills.astro';
+import KeyboardManager from '@/components/KeyboardManager.astro';
+import Language from '@/components/sections/Languages.astro';
 
-import { basics } from "@cv"
-const { name, label } = basics
-
+import { basics } from '@cv';
+const { name, label } = basics;
 ---
 
 <Layout title={`Portafolio's ${name} - ${label}`}>
-  <main>
-    <Hero />
-    <About />
-    <Language/>
-    <Experience />
-    <Education />
-    <Projects />
-    <Skills />
-    
-  </main>
-
-  <KeyboardManager />
+    <main>
+        <body>
+            <div id='portafolio'>
+                <Hero />
+                <About />
+                <Language />
+                <Projects />
+                <Experience />
+                <Education />
+                <Skills />
+            </div>
+        </body>
+    </main>
+    <div id='keyboard-manager'>
+        <KeyboardManager />
+    </div>
 </Layout>
 
 <style>
-  main {
-    padding: 4rem;
-    margin: auto;
-    width: 100%;
-  }
-
-  @media (width <= 700px) {
-    main {
-      padding: 1rem;
+    body {
+        background-color: #ffffff;
     }
-  }
+    main {
+        padding: 2rem;
+        margin: 0 auto;
+    }
+    #portafolio {
+        padding: 1em;
+        background-color: rgb(239, 239, 239);
+        max-width: 850px;
+        margin: 0 auto;
+    }
+
+    @media (width <= 700px) {
+        main {
+            padding: 1rem;
+        }
+        #keyboard-manager {
+            display: none;
+        }
+    }
+    @media (prefers-color-scheme: light) {
+        body {
+            background-color: rgb(255, 255, 255);
+        }
+    }
+
+    @media (prefers-color-scheme: dark) {
+        #portafolio {
+            background-color: rgb(19, 19, 19);
+        }
+
+        body {
+            background-color: #000000;
+        }
+    }
 </style>
