@@ -113,4 +113,11 @@ const { image, summary } = basics;
             background-color: rgb(203, 28, 28);
         }
     }
+
+    @media print {
+        html,
+        body {
+            filter: invert(1) !important;
+        }
+    }
 </style>
