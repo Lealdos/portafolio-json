@@ -242,6 +242,7 @@
             "description": "Creation of an E-commerce platform with functionalities including authentication, shopping cart, AI-powered virtual assistant, integration with the Shopify API, and more. It is built primarily using Next.js 14, TypeScript, Tailwind, and Zustand.",
             "highlights": [
                 "NextJS 14",
+                "OpenAI API",
                 "TypeScript",
                 "Vercel Deploy",
                 "ShopifyAPI",
