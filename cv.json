@@ -69,7 +69,7 @@
     ],
     "education": [
         {
-            "institution": "Universidad Catolica Andres Bello, Guayana",
+            "institution": "Universidad Católica Andres Bello, Guayana",
             "url": "https://www.ucab.edu.ve/guayana/",
             "area": "Software engineer",
             "studyType": "Bachelor",
@@ -229,9 +229,34 @@
     ],
     "projects": [
         {
+            "name": "Poem Generator",
+            "isActive": true,
+            "description": "A web application through which, with the assistance of an AI, you can upload any image. You will be able to visualize it, and after a short time, you will receive a poem that uses the previously uploaded image as inspiration.",
+            "highlights": ["React", "TypeScript", "Tailwind", "Gemini AI"],
+            "url": "https://regalo-ana.vercel.app/",
+            "github": "https://github.com/Lealdos/regalo-ana"
+        },
+        {
+            "name": "Future Store",
+            "isActive": true,
+            "description": "Creation of an E-commerce platform with functionalities including authentication, shopping cart, AI-powered virtual assistant, integration with the Shopify API, and more. It is built primarily using Next.js 14, TypeScript, Tailwind, and Zustand.",
+            "highlights": [
+                "NextJS 14",
+                "TypeScript",
+                "Vercel Deploy",
+                "ShopifyAPI",
+                "Tailwind",
+                "Zustand",
+                "SDK"
+            ],
+            "url": "https://shopify-ecommerce-three.vercel.app/",
+            "github": "https://github.com/Lealdos/Shopify-ecommerce"
+        },
+
+        {
             "name": "Resdy",
             "isActive": false,
-            "description": "A powerful RESTful API built with Prisma ORM, Node.js, TSOA, and TypeScript. This API serves as a robust backend for our application, providing seamless data management and powerful endpoint interactions. With TypeScript's typing and TSOA's automatic routing, this project ensures a scalable and maintainable codebase.",
+            "description": "A powerful RESTfull API built with Prisma ORM, Node.js, TSOA, and TypeScript. This API serves as a robust backend for our application, providing seamless data management and powerful endpoint interactions. With TypeScript's typing and TSOA's automatic routing, this project ensures a scalable and maintainable codebase.",
             "highlights": [
                 "ORM",
                 "Prisma",
@@ -241,7 +266,7 @@
                 "Tsoa",
                 "API REST"
             ],
-            "url": "https://mars.codes",
+            "url": "https://github.com/Lealdos/restify-v2-backend",
             "github": "https://github.com/Lealdos/restify-v2-backend"
         },
         {
