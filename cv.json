@@ -116,6 +116,12 @@
     ],
     "skills": [
         {
+            "name": "Python"
+        },
+        {
+            "name": "NextJS"
+        },
+        {
             "name": "React",
             "level": "Avanzado",
             "keywords": [
