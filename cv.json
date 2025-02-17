@@ -1,12 +1,12 @@
 {
     "basics": {
         "name": "Jose Leonardo Delgado Avila",
-        "label": "Full-stack developer, enthusiastic about creating user experiences, while crafting maintainable and scalable code.",
+        "label": "A Venezuelan bilingual developer based in the U.S, dedicated to delivering high-quality software solutions.",
         "image": "/me.webp",
         "email": "j3leonardodelgado@gmail.com",
         "phone": "+1 614-881-8723",
         "url": "",
-        "summary": "As a Full Stack Software Developer, I'm enthusiastic to significantly contribute to creating innovative and efficient software solutions. With a robust skill set encompassing JavaScript, Python, Node.js, SQL, Git, CSS, HTML, Express, FastAPI, Object-Oriented Programming (OOP), and Linux, I'm well-prepared to embrace fresh challenges while continuing my journey of learning and development as a developer.",
+        "summary": "As a Full Stack Software Developer, I'm team player and enthusiastic to contribute to creating efficient software solutions.I have a robust skill set encompassing JavaScript, Typescript, Python, Node.js, SQL, Git, CSS, HTML, Express, NestJS, React, Astro, Next.js, Docker and Linux, I'm well-prepared to embrace fresh challenges while continuing my journey of learning and development as a developer.",
         "location": {
             "address": "",
             "postalCode": "43026",
@@ -45,14 +45,6 @@
             "startDate": "2020-06-01",
             "endDate": "2023-05-01",
             "summary": "crafting custom code, building websites or applications tailored to client needs, troubleshooting technical issues, and effectively communicating to understand and meet project requirements.",
-            "highlights": ["Started the company"]
-        },
-        {
-            "name": "Momentum labs",
-            "position": "Full Stack Developer",
-            "startDate": "2017-01-02",
-            "endDate": "2018-06-01",
-            "summary": "My responsibility was to analyze, design, develop, deploy, and test software solutions made with the following stacks: NestJs, javascript, HTML, CSS, fast API, python, Django, and Flask.",
             "highlights": ["Started the company"]
         }
     ],
